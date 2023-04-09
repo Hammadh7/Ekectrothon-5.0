@@ -1,0 +1,79 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>COMPARE YOUR BANKS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1> COMPARE YOUR BANKS</h1>
+    <div class="Salary">
+        <label for="salary">Salary:</label>
+        <input type="text" id="salary" name="personslary" placeholder="Enter your monthly salary">
+			 
+    </div>
+	<form>
+		<div class="bank-input">
+			<label for="bank1">Bank 1:</label>
+            <br>
+			<input type="text" id="bank1" name="bank1" placeholder="Enter bank name...">
+			 <br>
+        
+			<div>
+                <label>Flexibility:</label>
+				<select id="flexibility1" name="flexibility1">
+					<option value="">Select an option</option>
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</select>
+				<label for="flexibility1_years">Years:</label>
+				<input type="number" id="flexibility1_years" name="flexibility1_years">
+				<label for="flexibility1_months">Months:</label>
+				<input type="number" id="flexibility1_months" name="flexibility1_months">
+			</div>
+		</div>
+            
+			<div class="interest-input">
+				<label for="interest1">Interest Rate:</label>
+				<input type="number" id="interest1" name="interest1" placeholder="Enter interest rate...">
+			</div>
+		</div>
+<br>
+<br>
+
+
+
+
+
+		<div class="bank-input">
+			<label for="bank2">Bank 2:</label>
+            <br>
+			<input type="text" id="bank2" name="bank2" placeholder="Enter bank name...">
+			<br>
+            
+           
+            <div>
+                <label>Flexibility:</label>
+				<select id="flexibility2" name="flexibility2">
+					<option value="">Select an option</option>
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</select>
+				<label for="flexibility2_years">Years:</label>
+				<input type="number" id="flexibility2_years" name="flexibility2_years">
+				<label for="flexibility2_months">Months:</label>
+				<input type="number" id="flexibility2_months" name="flexibility2_months">
+			</div>
+
+<br>
+			<div class="interest-input">
+				<label for="interest2">Interest Rate:</label>
+				<input type="number" id="interest2" name="interest2" placeholder="Enter interest rate...">
+			</div>
+		</div>
+		<button type="button" onclick="compare()">Compare</button>
+		<div id="result"></div>
+	</form>
+
+	<script src="index.js"></script>
+</body>
+</html>

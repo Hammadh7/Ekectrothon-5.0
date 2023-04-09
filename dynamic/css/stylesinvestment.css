@@ -1,0 +1,37 @@
+body{
+    /* background-image: url('/dynamic/img/.png'); */
+    background-color: #a6f9f6;
+     background-size:cover;
+    background-attachment: fixed;
+}
+
+.top{
+  font-family: 'Roboto Condensed', sans-serif;
+	background-color: rgb(134, 221, 238);
+	padding: 20px 4px;
+	margin:0px 300px;
+	border-radius: 30px;
+ 
+	text-align: center;
+} 
+
+.mid{
+font-family: 'Roboto Condensed', sans-serif;
+ 
+text-align: center;
+ 
+	padding: 20px 4px;
+    
+  background: linear-gradient(to right,  #f9f1a5, #fcfcd1, #f2cae5, #fdc5f9, #f99ee5);
+
+  background-attachment: fixed;
+ 
+} 
+ 
+.btn-danger{
+  position:relative;
+  left:1220px;
+}
+ 
+  
+  

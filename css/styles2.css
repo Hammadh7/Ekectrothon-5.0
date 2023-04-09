@@ -1,0 +1,221 @@
+ 
+ @import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Lobster+Two|Oleo+Script');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+body 
+{
+  
+    height: 100%;
+	display: flex;
+	align-items: right;
+	justify-content: right;
+   background-image: url("images/secd.png");
+   /* background-repeat: no-repeat; */
+    background-size: cover; 
+  
+}
+
+
+    
+button 
+{
+ font-family: 'Righteous', cursive;
+	width: 400px;
+	height: 2.5em;
+	border:2px solid white;
+	font-size: 50px;
+	line-height: 2.5em;
+	text-align: center;
+	position:relative;
+	overflow: hidden;
+	letter-spacing:5px;
+	
+    
+}
+
+
+
+ .top{
+	font-family: "Montserrat-Bold";
+	font-weight: bold;
+	background-color: rgb(134, 221, 238);
+	padding: 20px 4px;
+	margin:10px 10px;
+	border-radius: 30px;
+
+	text-align: center;
+} 
+
+
+ 
+
+
+
+ h1
+{
+       
+	font-family: 'Kanit', sans-serif;
+}
+
+
+
+.container-md{
+    background-color: rgb(6, 146, 189,0.6);
+		width: 50%;
+		height: 50%;
+		 
+		 
+}
+ 
+
+
+ 
+.row{
+	margin-left: 2px;
+	margin-right: 8px;
+  }
+
+ 
+
+
+
+
+
+
+button span 
+{
+	 
+	width: 100%;
+	top: 0;
+	left: 0;
+	transition: 0.4s ease-in;
+}
+
+  
+    
+ 
+ 
+
+.btn-lg
+{
+border-radius: 40px ;
+background-image: radial-gradient(circle, #11fbd2, #00cef1, #0099ef, #5a5bbc, #7e0664);
+box-shadow:0 0 0 1px #a20068 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 2px 0 #a20068, 0 8px 8px 1px rgba(0,0,0,0.5);
+margin: 48px;
+ 
+
+}
+
+.btn:active
+{
+ box-shadow:0 0 0 1px #9a00cd inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+ transform: translate(0px,10px);
+
+}
+
+.textIn
+{
+	font-size: 1.1em;
+	background-image: linear-gradient(to bottom, #fd32c9, #eb008a, #cd0055, #a7042a, #7e1606);
+	left:100%;
+}
+ 
+
+   button {
+	padding: 10px 20px;
+	background-color: blue;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	transition: transform 0.2s ease-in-out;
+  }
+  
+  button:hover {
+	transform: translateY(-5px);
+	color: black;
+	cursor: pointer;
+  }
+  
+  .row{
+	margin-left: 100px;
+  }
+ 
+
+ 
+
+
+
+
+
+
+
+/* 
+MAKING BUTTONS RESPONSOIVE  HAVE TO CHECK IT ON DIFF SCREEN  (HOLD) */
+  /* Styles for screen sizes smaller than 768px */
+@media (max-width: 767px) {
+      btn-lg {
+	  margin: 5px;
+	}
+  }
+  
+  /* Styles for screen sizes between 768px and 992px */
+  @media (min-width: 768px) and (max-width: 991px) {
+      btn-lg {
+	  margin: 15px;
+	}
+  }
+  
+  /* Styles for screen sizes larger than 992px */
+  @media (min-width: 992px) {
+      btn-lg {
+	  margin: 20px;
+	}
+  } 
+
+
+ 
+  
+  
+ 
+  
+  
+
+
+  /* For screens smaller than 576px */
+@media (max-width: 576px) {
+	.container-md {
+	  padding-left: 15px;
+	  padding-right: 15px;
+	}
+	.col-6 {
+	  width: 100%;
+	}
+	.bb {
+	  margin-bottom: 20px;
+	}
+  }
+  
+  /* For screens between 576px and 768px */
+  @media (min-width: 576px) and (max-width: 768px) {
+	.container-md {
+	  max-width: 750px;
+	  padding-left: 15px;
+	  padding-right: 15px;
+	}
+  }
+  
+  /* For screens between 768px and 992px */
+  @media (min-width: 768px) and (max-width: 992px) {
+	.container-md {
+	  max-width: 970px;
+	  padding-left: 15px;
+	  padding-right: 15px;
+	}
+  }
+  
+  /* For screens larger than 992px */
+  @media (min-width: 992px) {
+	.container-md {
+	  max-width: 1170px;
+	}
+  }
+ 
